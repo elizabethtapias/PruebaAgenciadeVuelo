@@ -1,0 +1,160 @@
+{
+  "id": "44de34bd-e546-465f-aabc-f20e5b43555e",
+  "version": "2.0",
+  "name": "Prueba",
+  "url": "https://shopping.copaair.com",
+  "tests": [{
+    "id": "510bf566-3ad1-49c5-9c62-25094d0e3a68",
+    "name": "BusquedaVuelo",
+    "commands": [{
+      "id": "14428471-f71c-4ce2-a14a-dda50549fcb6",
+      "comment": "",
+      "command": "open",
+      "target": "/booking-panel",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c3b40c3-bf72-4d3c-89b6-1c4517ee0db3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1851x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "871b0aa9-acc2-44ab-8c09-ef9960f82d10",
+      "comment": "",
+      "command": "click",
+      "target": "id=origin-autocomplete-0",
+      "targets": [
+        ["id=origin-autocomplete-0", "id"],
+        ["name=origin-0", "name"],
+        ["css=#origin-autocomplete-0", "css:finder"],
+        ["xpath=//input[@id='origin-autocomplete-0']", "xpath:attributes"],
+        ["xpath=//div[@id='scrollable-prevent-tabpanel-0']/div/form/div/div/div/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c1cdb92-c037-4810-a85a-7afd086bf3f0",
+      "comment": "",
+      "command": "type",
+      "target": "id=origin-autocomplete-0",
+      "targets": [
+        ["id=origin-autocomplete-0", "id"],
+        ["name=origin-0", "name"],
+        ["css=#origin-autocomplete-0", "css:finder"],
+        ["xpath=//input[@id='origin-autocomplete-0']", "xpath:attributes"],
+        ["xpath=//div[@id='scrollable-prevent-tabpanel-0']/div/form/div/div/div/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Panamá (PTY)"
+    }, {
+      "id": "907769bc-0a19-4a37-9023-989f93e167bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#origin-autocomplete-0-option-0 .jss209 > div",
+      "targets": [
+        ["css=#origin-autocomplete-0-option-0 .jss209 > div", "css:finder"],
+        ["xpath=//li[@id='origin-autocomplete-0-option-0']/div/div/div", "xpath:idRelative"],
+        ["xpath=//li/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e82157b-04be-415c-a7bc-459687eaab4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=destination-autocomplete-0",
+      "targets": [
+        ["id=destination-autocomplete-0", "id"],
+        ["name=destination-0", "name"],
+        ["css=#destination-autocomplete-0", "css:finder"],
+        ["xpath=//input[@id='destination-autocomplete-0']", "xpath:attributes"],
+        ["xpath=//div[@id='scrollable-prevent-tabpanel-0']/div/form/div/div/div/div[2]/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba999a54-e096-493f-96ab-d1a46778c5de",
+      "comment": "",
+      "command": "type",
+      "target": "id=destination-autocomplete-0",
+      "targets": [
+        ["id=destination-autocomplete-0", "id"],
+        ["name=destination-0", "name"],
+        ["css=#destination-autocomplete-0", "css:finder"],
+        ["xpath=//input[@id='destination-autocomplete-0']", "xpath:attributes"],
+        ["xpath=//div[@id='scrollable-prevent-tabpanel-0']/div/form/div/div/div/div[2]/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Aguascalientes (AGU)"
+    }, {
+      "id": "5d0b1a5f-00d2-4e30-8fd5-968ef1210bf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss206",
+      "targets": [
+        ["css=.jss206", "css:finder"],
+        ["xpath=//li[@id='destination-autocomplete-0-option-0']/div/div/span", "xpath:idRelative"],
+        ["xpath=//li/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Aeropuerto Internacional Lic. Jesús Terán Peredo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17ea9891-8e4c-45ab-aafe-28db0cbdec5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CalendarMonthGrid_month__horizontal:nth-child(3) tr:nth-child(3) > .CalendarDay:nth-child(3) > .inner-day",
+      "targets": [
+        ["css=.CalendarMonthGrid_month__horizontal:nth-child(3) tr:nth-child(3) > .CalendarDay:nth-child(3) > .inner-day", "css:finder"],
+        ["xpath=//div[@id='scrollable-prevent-tabpanel-0']/div/form/div/div[2]/div[2]/div/div/div/div/div[2]/div[2]/div/div[3]/div/table/tbody/tr[3]/td[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/table/tbody/tr[3]/td[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df59410f-6485-40b2-8303-6851bce79cc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > .CalendarDay__hovered_span:nth-child(6) > .inner-day",
+      "targets": [
+        ["css=tr:nth-child(4) > .CalendarDay__hovered_span:nth-child(6) > .inner-day", "css:finder"],
+        ["xpath=//div[@id='scrollable-prevent-tabpanel-0']/div/form/div/div[2]/div[2]/div/div/div/div/div[2]/div[2]/div/div[3]/div/table/tbody/tr[4]/td[6]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/table/tbody/tr[4]/td[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "968371b8-d6e5-4047-a70d-2b71fec6092e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss266 > .MuiButton-label",
+      "targets": [
+        ["css=.jss266 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='scrollable-prevent-tabpanel-0']/div/form/div/div[2]/div[2]/div/div[2]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Confirmar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee781f76-b44f-4065-a187-4d09a6a811e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jss186 > .MuiButton-label",
+      "targets": [
+        ["css=.jss186 > .MuiButton-label", "css:finder"],
+        ["xpath=//div[@id='scrollable-prevent-tabpanel-0']/div/form/div/div[4]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Buscar Vuelos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "05052b60-3b5b-4c12-9090-ae4d1d3c6327",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["510bf566-3ad1-49c5-9c62-25094d0e3a68"]
+  }],
+  "urls": ["https://shopping.copaair.com/"],
+  "plugins": []
+}
